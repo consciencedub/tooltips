@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>upstream-tooltips-exercise</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    
+    <!-- import the webpage's javascript file -->
+    <!-- Place your kit's code here -->
+    <script src="https://kit.fontawesome.com/22054584cb.js" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
+  </head>  
+  <body>
+    
+  
+    <!--Top Left Card-->
+    <div class="tooltip-card">
+        <div class="menubar">
+          <div class="menubar-checkbox">
+            <button class="button-icon" onclick="processAccept()">
+              <i class="fas fa-check"></i>
+            </button>
+            <button class="button-icon" onclick="processDeny()">
+              <i class="fas fa-times"></i>
+            </button>
+            <div class="vl">
+            </div>
+            
+            <button class="btn-script" onclick="merge()">
+              <i class="fas fa-check"></i>
+              <strong class="ml-1">Merge</strong>
+            </button>
+
+           <button class= "btn-script" onclick="exclude()">
+            <i class="ml-3 ico fas fa-compress-alt fa-lg"></i>
+            <strong class="ml-1">Exclude</strong>
+           </button>
+          
+             <button class="button-icon" onclick="processMenuDrop()">
+               <i class="ml-3 ico fas fa-ellipsis-v"></i>
+             </button>
+          </div>
+        </div>
+
+        <div class="tooltip-row">
+           <div class="tooltip-icon">
+            <a href="#" title="This is a tootip"><i class="ico-tag fas fa-tag" fa-lg></i></a>
+
+            <span>Sub-Category:</span>
+          </div>
+              <strong class="tooltip-content">Storage</strong>
+        </div>
+    
+      <div class="tooltip-row">
+           <div class="tooltip-icon">
+             <i class="ico-green fas fa-hashtag fa-lg"></i>
+             <span>SUM(Sales):</span>
+          </div>
+            <strong class="tooltip-content">304,180</strong>
+        </div>
+  
+    <div class="tooltip-row">
+           <div class="tooltip-icon">
+             <i class=" ico-blue fas fa-mouse-pointer fa-lg"></i>
+            <span>Selected:</span>
+          </div>
+              <strong class="tooltip-content blu">223,884</strong>
+        </div>
+      
+        <div class="tooltip-row shading">
+             <div class="tooltip-icon">
+               <i class="ico-lock fas fa-lock"></i>
+               <span>New Value</span>
+            </div>
+              <div class="tooltip-content blu">
+                <input>
+            </div> 
+    </div>
+   <div class="tooltip-row shading">
+             <div class="tooltip-icon">
+               <i class="ico-lock fas fa-lock"></i>
+               <span>New Value</span>
+            </div>
+              <div class="tooltip-content blu">
+                <input>
+            </div> 
+    </div>
+
+      </div>
+      
+ <!--Top Right Card-->  
+  <div class="tooltip-card">
+        <div class="menubar">
+          <div class="menubar-checkbox">
+            <button class="button-icon" onclick="processAccept()">
+              <i class="fas fa-check"></i>
+            </button>
+            <button class="button-icon" onclick="processDeny()">
+              <i class="fas fa-times"></i>
+            </button>
+            <div class="vl">
+            </div>
+            
+             <button class="button-icon elipsis" onclick="processMenuDrop()">
+               <i class="ico fas fa-ellipsis-v"></i>
+             </button>
+            
+          </div>
+          
+          
+
+        </div>
+
+        <div class="tooltip-row">
+           <div class="tooltip-icon">
+             <i class="ico-tag fas fa-tag" fa-lg></i>
+            <span>Sub-Category:</span>
+          </div>
+              <strong class="tooltip-content">Storage</strong>
+        </div>
+    
+      <div class="tooltip-row">
+           <div class="tooltip-icon">
+             <i class="ico-green fas fa-hashtag fa-lg"></i>
+             <span>SUM(Sales):</span>
+          </div>
+            <strong class="tooltip-content">304,180</strong>
+        </div>
+  
+    <div class="tooltip-row">
+           <div class="tooltip-icon">
+             <i class=" ico-green fas fa-hashtag fa-lg"></i>
+            <span>SUM(Profit):</span>
+          </div>
+            <strong class="tooltip-content blu">84.67%</strong>
+        </div>
+
+      </div>
+    
+  
+  
+    
+  
+
+    <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix -->
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    <script src="https://button.glitch.me/button.js"></script>
+  </body>
+</html>
