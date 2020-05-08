@@ -1,0 +1,186 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+.tooltip-card {
+  margin-left: 50px;
+  margin-top: 50px;
+  margin-right: 50px;
+  width: 350px;
+  border: 1px solid #f0f0f0;
+  border-radius: 4px;
+  5px 10px #888888; 
+  -webkit-box-shadow: 3px 3px 12px 1px rgba(189,183,189,1);
+  -moz-box-shadow: 3px 3px 12px 1px rgba(189,183,189,1);
+  box-shadow: 3px 3px 12px 1px rgba(189,183,189,1);
+  height: auto;
+}
+
+.menubar {
+  height: 40px;
+  border-bottom: 1px solid #d6d2d6;
+  margin-bottom:10px;
+  margin-top: 10px;
+/*   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap
+  justify-content: space-between; */
+  color: #808080;
+}
+
+.menubar-body {
+  width: 350px;
+}
+
+.menubar-icons {
+  width: 270px;
+  display: flex;
+  justify-content:flex-end;
+  align-items: center;
+/*   padding-right: 10px;
+   */
+  
+}
+
+.menubar-checkbox {
+  width: 90px;
+  margin-left: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tooltip-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:flex-start;
+  align-items: center;
+  height: 40px;
+  width: 350px;
+}
+
+.tooltip-icon {
+  width: 175px;
+  padding-left: 20px;  
+}
+.tooltip-content {
+  width: 160px;
+  color: #808080;
+}
+
+
+body {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  margin-top 500px;
+}
+
+.button-icon {
+  border: none;
+  background-color: white;
+  color: #808080;
+}
+
+btn {
+  width: 200px:
+  height: 44px;
+}
+
+.vl {
+  border-left: 2px solid #808080;
+  height: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.ico-tag {
+  width: 25px;
+  color: orange;
+}
+
+.ico-lock {
+  width: 25px;
+  color: #c6c6c6;
+}
+
+.ico-green{
+  width: 25px;
+  color: green;
+}
+
+.ico-blue{
+  width: 25px;
+  color: #0099ff;
+}
+
+.ico-green{
+  width: 25px;
+  color: #green;
+}
+
+span {
+  color: #808080;
+}
+
+.blu {
+  color: #1E90FF;
+}
+
+input {
+  width: 150px;
+  height: 20px;
+}
+
+.shading {
+  background: #f0f0f0;
+  height: 40px;
+}
+
+label {
+    display: inline-block;
+    width: 5em;
+    color: white;
+    background: teal;
+  }
+
+.menu-drop {
+  width: 200px;
+  height: 200px;
+  background: black;
+}
+
+.tooltip-row:hover {
+  background-color: #d9dbda;
+}
+
+ .btn-script {
+    display:  flex;
+    flex-direction: row;
+    align-items: baseline;
+/*     justify-content: space-around; */
+    align-content: center;
+    background-color: white;
+    border: none;
+    color: #808080;
+    /* padding: 10px 10px; */
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+.elipsis {
+  margin-left: 220px;
+}
+
+
